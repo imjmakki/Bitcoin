@@ -43,7 +43,6 @@ class _PriceScreenState extends State<PriceScreen> {
             padding: EdgeInsets.only(bottom: 30.0),
             color: Colors.lightBlue,
             child: DropdownButton<String>(
-              value: 'USD',
               items: [
                 DropdownMenuItem(
                   child: Text('USD'),
