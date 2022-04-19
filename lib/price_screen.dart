@@ -48,6 +48,14 @@ class _PriceScreenState extends State<PriceScreen> {
                   child: Text('USD'),
                   value: 'USD',
                 ),
+                DropdownMenuItem(
+                  child: Text('EUR'),
+                  value: 'EUR',
+                ),
+                DropdownMenuItem(
+                  child: Text('GBP'),
+                  value: 'GBP',
+                ),
               ],
               onChanged: null,
             ),
