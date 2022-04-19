@@ -57,7 +57,9 @@ class _PriceScreenState extends State<PriceScreen> {
                   value: 'GBP',
                 ),
               ],
-              onChanged: null,
+              onChanged: (value) {
+                print(value);
+              },
             ),
           ),
         ],
